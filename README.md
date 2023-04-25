@@ -1,139 +1,61 @@
-# Human Centered Design @cmda-minor-web 2022 - 2023
+# Human Centered design
 
-Human Centered Design is een  methode voor het ontwerpen van gebruiksvriendelijke interactieve toepassingen.
+## Ideeën
 
-> What distinguishes Human-Centered Design from other problem-solving approaches is its obsessive focus on understanding the perspective of the person who experiences a problem, their needs, and whether the solution that has been designed for them is truly meeting their needs effectively or not. At its most effective, the very people who experience a problem the most are a constant part of the design process and when possible, become part of the design team itself. - [What Is Human-Centered Design?](https://medium.com/dc-design/what-is-human-centered-design-6711c09e2779)
+- Je body language/mood als status instellen door middel van kleur. Net zoals je in teams kan neerzetten of je online of offline bent, kan je hier door middel van een gekleurd bolletje je mood aangeven.
 
-Door regelmatig te testen met je doelgroep kom je tot een beter en passend ontwerp. 
-Een Frontender heeft verstand van interactie, vormgeving én techniek. 
-Als je web technieken beheerst kun je je ideeën snel prototypen en testen in een browser. Je kan dan aanpassingen doorvoeren, uitproberen en weer testen ...
-        
-In het vak Human Centered Design gaan we dingen ontwerpen voor echte mensen. 
-Is er goede interactie? Kan je 'mens' je product op een prettige manier bedienen? 
-Wat voor principes heb je gebruikt en getest? En is het leuk?
-
-## Opdracht
-
-### Ontwerpen met en voor echte mensen
-
-Voor dit vak krijg je een ontwerp-opdracht die je gaat maken voor 1 mens. 
-Een echt mens. 
-Je moet je ontwerp elke week testen. 
-Door te testen en te itereren ga je je ontwerp verbeteren. 
-Uiteindelijk heb je een ontwerp dat exclusief gemaakt is voor 1 persoon. 
-Een _exclusive design_ ... 
-Wie is deze persoon dan voor wie je dit gaat maken? 
-Wat vindt deze persoon leuk of juist niet? 
-Hoe bedient deze persoon een computer?
-
-- [Opdracht - Ontwerpen met en voor echte mensen](course/opdracht-human-centered-design.md)
-
-### Leerdoelen
-
-- _Leren hoe je (design) principles in een ontwerp kan toepassen._
-- _User needs begrijpen en gebruiken in je ontwerp._
-- _Leren hoe je moet testen en de resultaten gebruiken voor het verbeteren van je ontwerp._
-
-[Rubric](#rubric)
-
-## Planning & programma
-
-| Planning  | Woensdag  |  Donderdag | Vrijdag  |
-|---|---|---|---|
-| [Week 1](#week-1---kickoff-en-aannames-testen)  | Intro & College Exclusive design | College + Testen | Feedbackgesprekken |
-| [Week 2](#week-2---prototypen-en-testen)  | College + Testen | ~~Koningsdag~~  | ~~Vrij~~  | 
-| ~~Meivakantie~~ |   |  |   |
-| [Week 3](#week-3---prototypen-presenteren-en-reflecteren)  | College  |  Onderzoeken presenteren | Beoordelingsgesprekken  |
+- Van spraak naar tekst een emoji kunnen sturen die bij je huidige stemming(moood) past. Dus als jij roept dat je verdrietig bent dat er dan een verdrietige emoji voor je wordt verstuurd.
 
 
-## Week 1 - Intro en aannames testen 
+## Versie 1 
 
-Deze week krijg je een college over _Exclusive Design Principles_. Deze Principles ga je toepassen in de opdracht. Op woensdag en donderdag gaan we kennis maken met de echte mensen voor wie we gaan ontwerpen. Zorg dat je al een kleine interactieve demo maakt om te testen.
+### Testen/ interview
 
-### Woensdag 19 april
+Vraag 1: Is het duidelijk dat dekler van het rondje dat om de gebruikersnaam staat, gelijk staat aan de mood van de gebruiker?
 
-Woensdag is de eerste les van het vak Human Centered Design. Je krijgt een intro college over het vak en Eric gaat vertellen over _Exclusive Design_.
+Vraag 2: Wat verstaat u onder body language?
 
-Daarna prototypen.
-
-### Donderdag 20 april
-
-Donderdag krijg je een college over testen. Ook gaan we deze les het artikel [Exclusive Design van Vasilis van Gemert](https://exclusive-design.vasilis.nl/flipping-things/) bespreken.
-
-Daarna prototypen en testen.
-
-### Vrijdag 21 april
-
-Feedbackgesprekken in groepen.
+Vraag 3: Waarom gebruikt u liever geen emoji's?
 
 
-## Week 2 - Prototypen en testen 
+**Overige bevindingen**
 
-Deze week heb je het tweede gesprek met je testpersoon. Wat ga je testen? Wat wil je weten? Donderdag is het koningsdag, dan is er geen les.
+- Eric gebruikt een houder voor zijn telefoon
+- Zijn hand blokkeerd een een groot deel van zijn zicht op zijn telefoon, dus gebruikt hij liever een pennetje om zijn telefoon te gebruiken of gewoon zijn laptop.
+- Knoppen bovenin zijn lastiger om bij te komen.
 
-### Woensdag 26 april
+**Observatie**
 
-Donderdag krijg je een college over testen. 
-Lees voor deze les de artikelen:  
-[10 Usability Lessons van Steve Krug](https://www.uxbooth.com/articles/10-usability-lessons-from-steve-krugs-dont-make-me-think/) 
-en [Design for Both Needs and Wants: Applying Anderson’s User Experience Hierarchy of Needs](https://thevisualcommunicationguy.com/2018/11/08/design-for-both-needs-and-wants-applying-andersons-user-experience-hierarchy-of-needs/) lezen.
+- Knoppen die dicht bij elkaar staan maken het moeilijker om op de juiste knop te klikken, zorg dus voor meer ruimte tussen de knoppen om te voorkomen dat er op de verkeerde wordt geklikt.
+- Teveel naast elkaar, emoji's.
+- Betekenis emoji's lastig te achterhalen, dus welke hoort bij welke emoji.
+- Betekenis is per land per emoji verschillend.
+- Gebruikt naast emoji's geen gifjes, stickers etc. Het aanbod is te groot.
+- Aanklikken emoji's moet makkelijk zijn.
+- Selfie nemen is erg lastig, vanwege de hoek hoe de telefoon staat.
+- Spraak invoer gebruiken om selfie te maken is makkelijker.
+- 2 keer tikken om in te zoomen is makkelijker.
+- Een muis is makkelijk te gebruiken voor Eric.
+- Als je lichaamstaal zou kunnen meegeven in tekst.
+- "Lost in translation" last van, is het wel de goede zin, vat deze persoon het goed op.
+- Gebruikt weinige verdrietige emoji's.
+- B.V. als Eric in de trein zit kan hij niet goed zijn telefoon bedienen doordat de trein best wel heen een weer schommelt.
+- Bluetooth telefoon wil geen voice messages opnemen.
+- Spraakberichten zijn wel makkelijker voor Eric, maar denk aan privacy, niet iedereen in de trein hoeft te weten wat Eric zegt.
+- Hoe groter de knoppen voor Eric hoe makkelijker ze te gebruiken zijn.
+- Foto maken op een latop is makkelijker, doordat Eric een muis kan gebruiken of tabben etc.
+- Switchen tussen muis en toetsenbordt is wel lastiger voor Eric
+- Eric hobby's: film kijken, lezen, bordspelletjes (dungeons and dragons).
+- Eric leest veel op zijn telefoon. Tablet vindt hij eigenlijk net iets te groot hiervoor.
+- Eric gebruikt touch-id om in te loggen om zijn telefoon, hij gebruikt hiervoor de zijkant van zijn vinger. Soms doet dit het wel en soms niet.
+- Eric maak took veel gebruik van suggesties van woorden die opkomen tijdens het typen.
 
-'s Middags ga je voor de tweede keer testen.
+### Conclusies
 
+Eric wilt graag een vervanging voor de emoji's op zijn telefoon. Hij wilt een duidelijke betekenis per emoji. Daarnaast is het voor Eric ook van groot belang dat deze vervangende emoji's makkelijk klikbaar zijn, dit kan je verbeteren door meer tussenruimte tussen de vervangende emoji's te zetten en de emoji's wat groter te maken. Zo kan Eric makkelijk met zijn pen de knoppen bedienen.
 
+Een andere oplossing kan zijn om de emotie door middel van spraak te laten overbrengen. Hiervoor kan ik een van spraak naar text api gebruiken of een extra functie toevoegen waardoor Eric ook door middel van spraak een emoji kan aanroepen en versturen.
 
-## Week 3 - Prototypen, presenteren en reflecteren
-
-In week 3 gaan we alle onderzoeken presenteren en publiceren. Eind van de week zijn de beoordelingsgesprekken. 
-
-### Woensdag 10 mei
-
-Woensdag beginnen we met een college. 
-Voor deze les moet je dit artikel lezen: [How User Scenarios Help To Improve Your UX van Sabina Idler](https://usabilla.com/blog/how-user-scenarios-help-to-improve-your-ux/) 
-
-Daarna verder werken aan je prototype.
-
-### Donderdag 11 mei
-
-Donderdag gaan we de onderzoeken presenteren en gaan we een site maken om al jullie onderzoeksbevindingen te publiceren. 
-
-
-### Vrijdag 12 mei
-
-Op vrijdag zijn de beoordelingsgesprekken. Je hebt dan een gesprek waarin we je vorderingen en bevindingen bespreekt. We verwachten dat je op Github je tests en iteraties hebt beschreven. Belangrijk is dat je reflecteert op de leerdoelen van het vak. 
-
-
-
-## Rubric
-
-De opdracht wordt beoordeeld aan de hand van onderstaande rubric. Je moet slagen voor het criterium (middenkolom) om het vak te halen. 
-
-| Ontoereikend  | Criteria  |  Verbetering |
-|---|---|---|
-|  | Readme - In de beschrijving van het project staat de opdracht uitgelegd, is het probleem duidelijk beschreven en hoe het probleem is opgelost. | | 
-|  | Design Principles - Student laat zien hoe de Exclusive Design Principles zijn toegepast in het ontwerp. De principes study situation, prioritise identity, ignore conventions en add nonsense zijn goed uitgelegd. Aan de hand van de principes wordt duidelijk gemaakt hoe deze hebben bijgedragen aan het verbeteren van het ontwerp. | | 
-|  | User Needs - Er is een user scenario geschreven dat aansluit bij de identiteit van de test persoon. Er is een duidelijk en volledig user scenario geschreven dat antwoord geeft op de 4 w-vragen: Who? What? How? en Why? | | 
-|  | Testen - Er is elke week getest. Er is een verslaglegging van de tests gedaan waarin de test-opzet wordt behandeld en er is een duidelijke conclusie beschreven met do's en dont's over hoe je goed kan testen. | | 
-|  | Testresultaten - Aan de hand van de tests wordt duidelijk gemaakt hoe deze hebben bijgedragen aan het verbeteren van het ontwerp of hoe dit een volgende keer beter of anders kan. | | 
-
-
-
-
-
-<!-- Add a link to your live demo in Github Pages 🌐-->
-
-<!-- ☝️ replace this description with a description of your own work -->
-
-<!-- replace the code in the /docs folder with your own, so you can showcase your work with GitHub Pages 🌍 -->
-
-<!-- Add a nice poster image here at the end of the week, showing off your shiny frontend 📸 -->
-
-<!-- Maybe a table of contents here? 📚 -->
-
-<!-- How about a section that describes how to install this project? 🤓 -->
-
-<!-- ...but how does one use this project? What are its features 🤔 -->
-
-<!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
-
-<!-- How about a license here? 📜 (or is it a licence?) 🤷 -->
+**To do:**
+- Een api zoeken die van tekst naar spraak werkt.
+- Het uitwerken van een interface die op een andere manier emotie overbrengt dan emoji's, het textueel beschrijven van verschillende emoties om ze vervolgens weer te kunnen meesturen in een chatomgeving door middel van kleur etc.

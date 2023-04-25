@@ -1,0 +1,31 @@
+{
+  "name": "hcd",
+  "version": "1.0.0",
+  "description": "prototype for HCD",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvaZ7/HCD.git"
+  },
+  "type": "module",
+  "author": "Eva Zaadnoordijk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EvaZ7/HCD/issues"
+  },
+  "homepage": "https://github.com/EvaZ7/HCD#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "socket.io": "^4.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

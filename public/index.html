@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+  <link rel="stylesheet" href="styles/style.css">
+  <title>SpeakEasy</title>
+
+</head>
+<body>
+  <header>
+    <h1>Chat with mood</h1>
+  </header>
+  <main>
+    <section>
+      <ul>
+        <li><p>Hey, hoe gaat het?</p><p>E</p></li>
+      </ul>
+      <p></p>
+      <form>
+        <fieldset>
+            <legend>Pick a mood:</legend>
+            <input type="radio" id="happy" name="mood" required>
+            <label for="happy">Happy</label>
+
+            <input type="radio" id="sad" name="mood">
+            <label for="sad">Sad</label>
+
+            <input type="radio" id="neutral" name="mood">
+            <label for="neutral">Neutral</label>
+        </fieldset>
+        <fieldset>
+          <input type="text" placeholder="Message" id="message" autocomplete="off">
+
+          <div id="send">
+          <button><span>Send</span></button>
+          </div>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>Prototype 1</p>
+  </footer>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script/script.js"></script>
+</body>
+</html>

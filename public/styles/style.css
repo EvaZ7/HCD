@@ -1,0 +1,267 @@
+/*************/
+/* FONTS */
+/*************/
+@import url("https://use.typekit.net/myy2iyg.css");
+
+/*************/
+/* CSS RESET */
+/*************/
+
+/*naar een idee van Jen Simmons*/
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+button:not([disabled]) {
+  cursor: pointer;
+}
+
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+  --background-black: #242424;
+  --frame-black: #5C5C5C;
+  --white: #fff;
+
+  --decoration-orange: #FBB95C;
+  --decoration-pink: #FFD1DC;
+  --decoration-purple: #C1B0E1;
+  --decoration-yellow: #FDFD96;
+  --decoration-green: #CBF3B7;
+}
+
+
+
+/**************/
+/*** BASICS ***/
+/**************/
+body {
+  background-color: var(--background-black);
+}
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  color: var(--decoration-purple);
+}
+
+
+
+/**************/
+/*** HEADER ***/
+/**************/
+header {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/*************/
+/*** MAIN ***/
+/*************/
+/* main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 20em;
+} */
+main section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 95dvh;
+}
+main section ul {
+  background-color: var(--frame-black);
+  height: 73dvh;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  width: 90vw;
+  margin-bottom: 0;
+  border-radius: 1em;
+  border-radius: 1em 1em 0 0;
+}
+
+/*Message field*/
+main section form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+  background-color: var(--frame-black);
+  padding-bottom: 1em;
+  border-radius: 0em 0em 1em 1em;
+}
+main section form fieldset:nth-of-type(2) {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  border: none;
+  margin: 0;
+  position: relative;
+  width: 90vw;
+}
+main section form input[type="text"] {
+  font-family: "omnes-georgian", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  width: 85vw;
+  border: 0;
+  border-radius: 1em;
+
+  height: 3em;
+  font-size: 1em;
+  padding-left: 1em;
+  padding-right: 5em;
+}
+main section form fieldset:nth-of-type(2) input:focus {
+  outline: 0.2em solid var(--decoration-purple);
+}
+main section form button {
+  clip-path: polygon(0 0, 100% 50%, 0 100%, 26% 50%);
+  background-color: var(--background-black);
+  color: var(--background-black);
+  width: 4em;
+  height: 3em;
+  transform: translateY(-50%);
+}
+#send {
+    right: 2em;
+    top: 50%;
+    position: absolute;
+}
+/* #send {
+    filter: drop-shadow(0 0 0.4em var(--background-black))
+            drop-shadow(0 0 0.4em var(--background-black))
+            drop-shadow(0 0 0.4em var(--background-black))
+    ;
+} */
+#send button:focus{
+    background-color: var(--decoration-purple);
+    color: var(--decoration-purple);
+    border: 0;
+}
+/*Messages*/
+section ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  list-style-type: none;
+  padding: 0;
+  padding: 1em;
+  overflow-y: scroll;
+  margin-bottom: 0;
+
+  /* border: 0em 0em 1em 0em;
+  border-color: var(--background-black);
+  border-style: solid; */
+
+  border: solid var(--background-black);
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+}
+
+::-webkit-scrollbar {
+  background: transparent;
+}
+
+section ul li{
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  font-family: "omnes-georgian", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  padding: 1em;
+  margin-bottom: -1em;
+  background-color: var(--decoration-purple);
+  width: fit-content;
+
+  box-shadow: 0.08em 0.06em 0.1em 0.1em rgb(65, 65, 65);
+}
+
+section ul li.send {
+  display: flex;
+}
+
+section ul li p {
+  color: var(--background-black);
+  font-family: "omnes-georgian", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+section ul li p:nth-of-type(2) {
+  background-color: white;
+  padding: 1em;
+  padding-left: 1.3em;
+  padding-right: 1.3em;
+  margin-left: 1em;
+  border-radius: 8em;
+
+  border: solid 0.2em red;
+}
+
+section p {
+  padding-top: 1em;
+  margin: 0em;
+  height: 1em;
+  width: 90vw;
+  font-family: "omnes-georgian", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: var(--white);
+  background-color: var(--frame-black);
+}
+
+fieldset:first-of-type {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 0;
+  width: 15em;
+  color: white;
+  background-color: var(--frame-black);
+}
+
+fieldset:first-of-type legend {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/***************/
+/*media queries*/
+/***************/
+
+@media (min-width: 60em) {
+  main section ul,
+  main section p{
+    width: 50em;
+    margin-bottom: 0;
+  }
+  main section form,
+  main section form fieldset:nth-of-type(2){
+    width: 50em;
+  }
+  main section form fieldset:nth-of-type(2) input {
+    width: 45em;
+  }
+  #send {
+    right: 3em;
+  }
+
+}
