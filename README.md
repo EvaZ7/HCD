@@ -1,13 +1,30 @@
-# Human Centered design
+# Erics App
 
-## Ideeën
+[ericsapp](https://ericsapp.adaptable.app/)
+
+## Inhoudsopgave
+
+- Probleem en oplossing
+- Eerste ideeën
+- Versie 1
+- Versie 2
+- Design principles
+- Gebruikers behoeften
+- Bronnen
+
+## Probleem en oplossing
+
+## Eerste ideeën
 
 - Je body language/mood als status instellen door middel van kleur. Net zoals je in teams kan neerzetten of je online of offline bent, kan je hier door middel van een gekleurd bolletje je mood aangeven.
 
 - Van spraak naar tekst een emoji kunnen sturen die bij je huidige stemming(moood) past. Dus als jij roept dat je verdrietig bent dat er dan een verdrietige emoji voor je wordt verstuurd.
 
-
 ## Versie 1 
+
+![versie1 voor desktop](https://ericsapp.adaptable.app/)
+
+![versie1 voor mobiel](https://ericsapp.adaptable.app/)
 
 ### Testen/ interview
 
@@ -57,20 +74,27 @@ Eric wilt graag een vervanging voor de emoji's op zijn telefoon. Hij wilt een du
 Een andere oplossing kan zijn om de emotie door middel van spraak te laten overbrengen. Hiervoor kan ik een van spraak naar text api gebruiken of een extra functie toevoegen waardoor Eric ook door middel van spraak een emoji kan aanroepen en versturen.
 
 **To do:**
-- Een api zoeken die van tekst naar spraak werkt.
+- Een API zoeken die van tekst naar spraak werkt.
 - Het uitwerken van een interface die op een andere manier emotie overbrengt dan emoji's, het textueel beschrijven van verschillende emoties om ze vervolgens weer te kunnen meesturen in een chatomgeving door middel van kleur etc.
 
 ## Versie 2
 
-## Feedback
+![versie2 voor desktop](https://ericsapp.adaptable.app/)
+
+![versie2 voor mobiel](https://ericsapp.adaptable.app/)
+
+### Peer feedback
 
 **Idee van Sasha** Je kan ook de textballonetjes animeren op basis van de mood! En een slider toevoegen voor de mood.
+Ook is het een idee om de typografie aan te passen op basis van de mood. Dus als Eric in een boze mood is, dan staat het berichtje ook in een heel "boos" lettertype.
 
 ### Aanpassingen
 
 - Omdat Eric op zijn mobiel een pennetje gebruikt om elementen aan te kunnen klikken is het van van groot belang dat de knoppen groot genoeg zijn om op te klikken en iets verder uit elkaar staan om ook de klikbaarheid te kunnen verbeteren. Ik heb daarom de knoppen om de "mood" te selecteren extra groot gemaakt voor op mobiel en meer uit elkaar gezet. Verder heb ik het label klikbaar gemaakt van de radiobuttons in plaats van de "button" zelf omdat deze vrij klein is zo heb ik hiermee ook de klikbaarheid kunnen verbeteren. Ik heb het icoontje voor het versturen van een bericht ook vergroot vanwege de bovenstaande redenen.
 
-Om de emotie nog duidleijker naar voren te laten komen in de berichten heb ik ervoor gekozen om de kleur van het gehele bericht aan te passen op basis van de emotie. Dus een groene kleur staat voor een bericht waarachter een vrolijke emotie zit, paars voor als het bericht neutraal bedoeld is en oranje voor als het bericht boos/droevig bedoeld is. Ik heb bij de boze emotie er expres voor gekozen om de kleur oranje te maken in plaats van rood omdat ik dit "TE" agreesief vindt overkomen en het moet natuurlijk wel een schappelijk gesprek blijven.
+- Om de emotie nog duidleijker naar voren te laten komen in de berichten heb ik ervoor gekozen om de kleur van het gehele bericht aan te passen op basis van de emotie. Dus een groene kleur staat voor een bericht waarachter een vrolijke emotie zit, paars voor als het bericht neutraal bedoeld is en oranje voor als het bericht boos/droevig bedoeld is. Ik heb bij de boze emotie er expres voor gekozen om de kleur oranje te maken in plaats van rood omdat ik dit "TE" agreesief vindt overkomen en het moet natuurlijk wel een schappelijk gesprek blijven.
+
+- Kleurentheorie
 
 ### Testplan
 
@@ -80,13 +104,13 @@ Hieronder vind je een testplan voor het testen van mijn chat applicatie, rekenin
 - Verifiëren dat de chat app toegankelijk is voor gebruikers die hun handen niet goed kunnen gebruiken.
 - Verifiëren dat het selecteren van emoties met kleuren goed werkt.
 - Verifiëren dat de gebruiker met beperkte handfunctie de app kunnen gebruiken.
-- Verifiëren of de gebruiker de kleuren duidelijk genoeg vinden voor de chatballonnen
+- Verifiëren of de gebruiker de kleuren duidelijk genoeg vinden voor de chatballonnen.
 - Verifiëren of de gebruiker de knoppen goed kan aanklikken.
 
 2. Testomgeving:
 - De smartphone van Eric met zijn stylus.
 - Eric zelf.
-- Online applicatie van een demo chat app.
+- Online applicatie van mijn demo chat app op mijn telefoon.
 
 3. Teststappen:
 
@@ -108,6 +132,28 @@ Laatste vraag: past de kleur bij de emotie en zo ja is dit duidelijk genoeg.
 5. Rapportage:
 - Een rapport van de testresultaten met eventuele opmerkingen of bevindingen.
 - Bedenk aanbevelingen voor het verbeteren van de toegankelijkheid van de chat app voor gebruikers met beperkte handfunctie.
+
+### Testen
+
+#### Observatie
+
+- Standaard een mood aanzetten, anders stuur en je er niet gelijk een mee
+- De knop voor het verzenden van het bericht kan groter, Eric heeft wat moete om deze knop aan te klikken met zijn stylus.
+- Het verspringen van de tekst is erg vervelend, zorg dat hier misschien een kleine vertraging in zit.
+- Eric zou zelf als je een mood hebt verstuurd deze nog willen aanpassen. Zo kan je dit nog wijzigen voor iedereen als jeje bedenkt.
+- Eric bedenkt vaak pas halverwege of hij het bericht bij wijze van spreke "NU" pas bijvoorbeeld boos wilt maken.
+- Eric gebruikt achter de laptop vaak zijn eigen muis, dit werkt iets anders aangezien hij rechtshandig is.
+- De knoppen voor het selecteren van een emotie zijn groot genoeg.
+- De knoppen voor het selecteren van de emoties zijn duidelijk gestyled voor als ze geselecteerd zijn.
+- De kleuren zijn duidelijk genoeg en passen bij de emotie die Eric wilt overbrengen.
+- Tab werkt fijn, maar Eric gebruikt liever zijn muis voor op desktop.
+
+#### Conclusie
+
+
+
+## Design principles
+## Gebruikers behoeften
 
 ## Bronnen
 
