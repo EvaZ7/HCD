@@ -15,35 +15,33 @@
   </header>
   <main>
     <section>
-      <ul>
-        <li><p>Hey, hoe gaat het?</p><p>E</p></li>
-      </ul>
+      <ul></ul>
       <p></p>
       <form>
         <fieldset>
             <legend>Pick a mood:</legend>
-            <input type="radio" id="happy" name="mood" required>
+            <input type="radio" id="happy" name="mood" value="happy" required>
             <label for="happy">Happy</label>
 
-            <input type="radio" id="sad" name="mood">
+            <input type="radio" id="sad" name="mood" value="sad">
             <label for="sad">Sad</label>
 
-            <input type="radio" id="neutral" name="mood">
+            <input type="radio" id="neutral" name="mood" value="neutral">
             <label for="neutral">Neutral</label>
         </fieldset>
         <fieldset>
-          <input type="text" placeholder="Message" id="message" autocomplete="off">
+          <input type="text" placeholder="Message" id="message" autocomplete="off" required>
 
-          <div id="send">
-          <button><span>Send</span></button>
+          <div>
+          <button id="send"><span>Send</span></button>
           </div>
         </fieldset>
       </form>
     </section>
   </main>
-  <footer>
+  <!-- <footer>
     <p>Prototype 1</p>
-  </footer>
+  </footer> -->
 
   <script src="/socket.io/socket.io.js"></script>
   <script src="script/script.js"></script>

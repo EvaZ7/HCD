@@ -38,12 +38,12 @@ io.on('connection', (socket) => {
         io.sockets.emit("chat", data);
     });
 
-    // data variable from input field in chat message
-    socket.on('typing', (inputName) => {
-        console.log("Aan het typen");
-        //broadcast shows the content to all users except the newly created user which is you (event and data from input field)
-        socket.broadcast.emit("typing", inputName);
-    });
+    // // data variable from input field in chat message
+    // socket.on('typing', (inputName) => {
+    //     console.log("Aan het typen");
+    //     //broadcast shows the content to all users except the newly created user which is you (event and data from input field)
+    //     socket.broadcast.emit("typing", inputName);
+    // });
 
     socket.on('disconnect', () => {
         console.log('user disconnected')

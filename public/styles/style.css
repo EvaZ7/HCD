@@ -179,22 +179,28 @@ section ul {
 }
 
 section ul li{
-  display: none;
   flex-direction: row;
   align-items: center;
   font-family: "omnes-georgian", sans-serif;
   font-weight: 500;
   font-style: normal;
   padding: 1em;
-  margin-bottom: -1em;
+  margin-bottom: 1em;
   background-color: var(--decoration-purple);
   width: fit-content;
+  border-radius: 1em;
 
   box-shadow: 0.08em 0.06em 0.1em 0.1em rgb(65, 65, 65);
 }
 
-section ul li.send {
-  display: flex;
+section ul li.happy {
+  background-color: var(--decoration-green);
+}
+section ul li.neutral {
+  background-color: var(--decoration-purple);
+}
+section ul li.sad {
+  background-color: var(--decoration-orange);
 }
 
 section ul li p {
@@ -202,17 +208,6 @@ section ul li p {
   font-family: "omnes-georgian", sans-serif;
   font-weight: 500;
   font-style: normal;
-}
-
-section ul li p:nth-of-type(2) {
-  background-color: white;
-  padding: 1em;
-  padding-left: 1.3em;
-  padding-right: 1.3em;
-  margin-left: 1em;
-  border-radius: 8em;
-
-  border: solid 0.2em red;
 }
 
 section p {
@@ -227,18 +222,64 @@ section p {
   background-color: var(--frame-black);
 }
 
+/*Moods*/
 fieldset:first-of-type {
   font-family: Arial, Helvetica, sans-serif;
   border: 0;
-  width: 15em;
+  width: 19em;
   color: white;
   background-color: var(--frame-black);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+fieldset:first-of-type input {
+  width: 0;
+  aspect-ratio: 1/1;
+  margin: 0;
+}
+
+fieldset:first-of-type label {
+  font-size: 1.5em;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  color: var(--background-black);
+  display: flex;
+  align-items: center;
+}
+
+fieldset:first-of-type label[for="happy"] {
+  background-color: var(--decoration-green)
+}
+fieldset:first-of-type label[for="sad"] {
+  background-color: var(--decoration-orange)
+}
+fieldset:first-of-type label[for="neutral"] {
+  background-color: var(--decoration-purple)
+}
+
+
+
+fieldset:first-of-type input:checked+label{
+  outline: 0.1em solid var(--white);
+  border: 0.15em solid var(--background-black);
+  font-weight: 600;
+  filter: brightness(80%);
 }
 
 fieldset:first-of-type legend {
   width: 100%;
   display: flex;
   justify-content: center;
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+fieldset:first-of-type label:hover {
+  cursor: pointer;
+  font-weight: 600;
+  filter: brightness(80%);
 }
 
 
@@ -262,6 +303,9 @@ fieldset:first-of-type legend {
   }
   #send {
     right: 3em;
+  }
+  fieldset:first-of-type label {
+    font-size: 1em;
   }
 
 }

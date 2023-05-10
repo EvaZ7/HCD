@@ -59,3 +59,56 @@ Een andere oplossing kan zijn om de emotie door middel van spraak te laten overb
 **To do:**
 - Een api zoeken die van tekst naar spraak werkt.
 - Het uitwerken van een interface die op een andere manier emotie overbrengt dan emoji's, het textueel beschrijven van verschillende emoties om ze vervolgens weer te kunnen meesturen in een chatomgeving door middel van kleur etc.
+
+## Versie 2
+
+## Feedback
+
+**Idee van Sasha** Je kan ook de textballonetjes animeren op basis van de mood! En een slider toevoegen voor de mood.
+
+### Aanpassingen
+
+- Omdat Eric op zijn mobiel een pennetje gebruikt om elementen aan te kunnen klikken is het van van groot belang dat de knoppen groot genoeg zijn om op te klikken en iets verder uit elkaar staan om ook de klikbaarheid te kunnen verbeteren. Ik heb daarom de knoppen om de "mood" te selecteren extra groot gemaakt voor op mobiel en meer uit elkaar gezet. Verder heb ik het label klikbaar gemaakt van de radiobuttons in plaats van de "button" zelf omdat deze vrij klein is zo heb ik hiermee ook de klikbaarheid kunnen verbeteren. Ik heb het icoontje voor het versturen van een bericht ook vergroot vanwege de bovenstaande redenen.
+
+Om de emotie nog duidleijker naar voren te laten komen in de berichten heb ik ervoor gekozen om de kleur van het gehele bericht aan te passen op basis van de emotie. Dus een groene kleur staat voor een bericht waarachter een vrolijke emotie zit, paars voor als het bericht neutraal bedoeld is en oranje voor als het bericht boos/droevig bedoeld is. Ik heb bij de boze emotie er expres voor gekozen om de kleur oranje te maken in plaats van rood omdat ik dit "TE" agreesief vindt overkomen en het moet natuurlijk wel een schappelijk gesprek blijven.
+
+### Testplan
+
+Hieronder vind je een testplan voor het testen van mijn chat applicatie, rekening houdend met Eric zelf:
+
+1. Testdoelstellingen:
+- Verifiëren dat de chat app toegankelijk is voor gebruikers die hun handen niet goed kunnen gebruiken.
+- Verifiëren dat het selecteren van emoties met kleuren goed werkt.
+- Verifiëren dat de gebruiker met beperkte handfunctie de app kunnen gebruiken.
+- Verifiëren of de gebruiker de kleuren duidelijk genoeg vinden voor de chatballonnen
+- Verifiëren of de gebruiker de knoppen goed kan aanklikken.
+
+2. Testomgeving:
+- De smartphone van Eric met zijn stylus.
+- Eric zelf.
+- Online applicatie van een demo chat app.
+
+3. Teststappen:
+
+Hieronder vind je de volgende testopdrachten die ik ga geven. Dit is het draaiboek van de hele test.
+
+- Open de chat app op de smartphone en start de app op.
+- Klik op het invoerveld om te beginnen met het typen van een bericht.
+- Probeer de emoties te selecteren met behulp van de stylus/pen.
+- Verzend het bericht.
+- Controleer of de emotie in de vorm van kleur goed is meegestuurd.
+
+Laatste vraag: past de kleur bij de emotie en zo ja is dit duidelijk genoeg.
+
+4. Verwachte resultaten:
+- De knoppen zijn duidelijk en makkelijk te begrijpen
+- De toegankelijkheidsinstellingen voor het selecteren van emoties werken goed en zijn toegankelijk voor gebruikers met beperkte handfunctie.
+- De emotie in de vorm van kleur is goed meegestuurd met het bericht.
+
+5. Rapportage:
+- Een rapport van de testresultaten met eventuele opmerkingen of bevindingen.
+- Bedenk aanbevelingen voor het verbeteren van de toegankelijkheid van de chat app voor gebruikers met beperkte handfunctie.
+
+## Bronnen
+
+- https://www.javascripttutorial.net/javascript-dom/javascript-radio-button/
