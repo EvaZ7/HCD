@@ -216,8 +216,6 @@ Verder wilt Eric niet altijd een mood (of een neutrale mood) aan een bericht mee
 
 ### Ignore conventions
 
-emoji gebruik
-
 Bijna elke gebruiker van een chatapp maakt gebruik van emoji's om zijn of haar emotie over te brengen in een bericht. Eric is daar een uitzondering op. Hij vindt emoji's onduidelijk en het zijn er te veel om uit te kiezen. Eric zou daarom graag op een andere manier emotie of *body language* willen uitdrukken. Hiervoor heb ik mood door middel van kleur systeem bedacht. Emotie wordt dan aan een bericht meegegeven door middel van kleur in plaats van een emoji. Om het concept nog meer te verduidelijken heb ik de gebruiker eerst uit een *mood* op basis van tekst laten kiezen, zodat dit ook gelijk is voor alle gebruikers van de chatapp, om vervolgens dit weer om te zetten naar kleur.
 
 ### Add nonsense
