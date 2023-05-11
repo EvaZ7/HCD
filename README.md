@@ -1,31 +1,47 @@
-# Erics App
+# Erics moods
+
+![versie3 voor mobiel](https://github.com/EvaZ7/HCD/blob/1ba0a9c1cb69474daa74d8f1f3379d0f80d80a4d/public/img/versie3desktop.png)
+
+## Onderzoeksvraag
+
+Voor Eric zijn emoji’s niet goed genoeg. Wij wil betere en krachtigere tools om emotie en *body language* te gebruiken in chat apps zoals Signal.
+
+## Probleem definitie
+
+Uit onderzoek blijkt dat Eric emoji's maar ingewikkeld vindt om te gebruiken, hij kan hiermee zichzelf niet voldoende uitdrukken in het kader van *body language*. Verder heeft Eric ook moeite met versturen van berichten als de knoppen te klein zijn doordat Eric zijn handen beperkt kan gebruiken en als hij zich een bepaalde omgeving begeeft en zijn telefoon niet stabiel staat.
+
+## Oplossing
+
+Ik heb dit opgelost door een chatapp te ontwerpen die Eric zijn emotie laat meesturen aan een bericht door middel van kleur. Eric Kan dan zelf kiezen hoe hij zich voelt door een extra grote knop/optie te selecteren en een bericht te typen! Hierdoor kan Eric zijn emotie aan een bericht meegeven zonder emoji's te gebruiken. Doordat de opties erg specifiek zijn, hoeft Eric ook niet meer te twijfelen aan de betekenis of toon die hij meegeeft aan een bericht door middel van emoji's.
+
+## Link naar prototype
 
 [ericsapp](https://ericsapp.adaptable.app/)
+
+# Documentatie
+
+## Inhoudsopgave
+
+- [Eigen definitie opdracht](https://github.com/EvaZ7/HCD#eigen-definitie-opdracht)
+- [Eerste ideeën](https://github.com/EvaZ7/HCD#eerste-ideeën)
+- [Versie 1](https://github.com/EvaZ7/HCD#versie-1)
+- [Versie 2](https://github.com/EvaZ7/HCD#versie-2)
+- [Eindresultaat](https://github.com/EvaZ7/HCD#eindresultaat)
+- [Design principles](https://github.com/EvaZ7/HCD#design-principles)
+- [Gebruikers behoeften](https://github.com/EvaZ7/HCD#gebruikers-behoeften)
+- [Bronnen](https://github.com/EvaZ7/HCD#bronnen)
+
+## Eigen definitie opdracht
 
 Voor het vak Human Centered design krijg je de opdracht om een ontwerp te maken voor specifiek één individu, een echt persoon. Het is belangrijk om elke week je ontwerp te testen en te herzien om het te kunnen verbeteren, zo maak je dus elke week een iteratie en wordt het ontwerp al beter. Zo zal het ontwerp uiteindelijk exclusief zijn afgestemd op de behoeften en voorkeuren van die ene persoon. Om dit te kunnen doen, is het belangrijk om te weten wie deze persoon is, wat hij of zij leuk vindt en niet leuk vindt, en hoe hij of zij omgaat met het gebruik van een computer of telefoon.
 
 Het doel van de opdracht is om te leren iteren en prototypen door middel van te testen met echte mensen.
 
-Mijn gebruiker is Eric. Eric is iemand die een sterke behoefte heeft aan het uiten van emoties en gevoelens in zijn online communicatie. Hij heeft gemerkt dat de standaard emoticons en emoji's die beschikbaar zijn in chat apps, zoals Signal, niet voldoende zijn om de complexiteit van zijn emoties over te brengen. Eric gelooft dat er betere en krachtigere tools nodig zijn om zijn emoties en *body language* effectiever te kunnen communiceren. Hij wilt dit graag kunnen gebruiken in de vorm die aansluit bij deze chatapp. 
+Mijn gebruiker is Eric. Eric is iemand die een sterke behoefte heeft aan het uiten van emoties en gevoelens in zijn online communicatie. Hij heeft gemerkt dat de standaard emoticons en emoji's die beschikbaar zijn in chat apps, zoals Signal, niet voldoende zijn om de complexiteit van zijn emoties over te brengen. Eric gelooft dat er betere en krachtigere tools nodig zijn om zijn emoties en *body language* effectiever te kunnen communiceren. Hij wilt dit graag kunnen gebruiken in de vorm die aansluit bij deze chatapp.
 
 Eric gelooft dat de technologie ons kan helpen bij het overbrengen van deze subtiele signalen in online communicatie. Hij stelt zich voor dat er bijvoorbeeld tools zouden zijn die onze gezichtsuitdrukkingen kunnen detecteren en omzetten in emoji's of animaties. Op deze manier zouden we ons beter kunnen uitdrukken en begrijpen wat de ander bedoelt in een chatgesprek.
 
 Kortom, Eric pleit voor een meer geavanceerde vorm van online communicatie, waarbij emoties en *body language* beter kunnen worden overgebracht. Hij gelooft dat er betere en krachtigere tools nodig zijn om dit te bereiken en dat deze tools zouden kunnen helpen bij het verbeteren van onze online interacties. Aan ons de taak om met deze tools aan de slag te gaan en hier een oplossing voor te bedenken in de vorm van een prototype door middel van te testen.
-
-## Inhoudsopgave
-
-- Probleem en oplossing
-- Eerste ideeën
-- Versie 1
-- Versie 2
-- Eindresultaat
-- Design principles
-- Gebruikers behoeften
-- Bronnen
-
-## Probleem en oplossing
-
-
 
 ## Eerste ideeën
 
@@ -46,7 +62,6 @@ Vraag 1: Is het duidelijk dat dekler van het rondje dat om de gebruikersnaam sta
 Vraag 2: Wat verstaat u onder body language?
 
 Vraag 3: Waarom gebruikt u liever geen emoji's?
-
 
 **Overige bevindingen**
 
@@ -106,8 +121,6 @@ Ook is het een idee om de typografie aan te passen op basis van de mood. Dus als
 - Omdat Eric op zijn mobiel een pennetje gebruikt om elementen aan te kunnen klikken is het van van groot belang dat de knoppen groot genoeg zijn om op te klikken en iets verder uit elkaar staan om ook de klikbaarheid te kunnen verbeteren. Ik heb daarom de knoppen om de "mood" te selecteren extra groot gemaakt voor op mobiel en meer uit elkaar gezet. Verder heb ik het label klikbaar gemaakt van de radiobuttons in plaats van de "button" zelf omdat deze vrij klein is zo heb ik hiermee ook de klikbaarheid kunnen verbeteren. Ik heb het icoontje voor het versturen van een bericht ook vergroot vanwege de bovenstaande redenen.
 
 - Om de emotie nog duidleijker naar voren te laten komen in de berichten heb ik ervoor gekozen om de kleur van het gehele bericht aan te passen op basis van de emotie. Dus een groene kleur staat voor een bericht waarachter een vrolijke emotie zit, paars voor als het bericht neutraal bedoeld is en oranje voor als het bericht boos/droevig bedoeld is. Ik heb bij de boze emotie er expres voor gekozen om de kleur oranje te maken in plaats van rood omdat ik dit "TE" agreesief vindt overkomen en het moet natuurlijk wel een schappelijk gesprek blijven.
-
-- Kleurentheorie
 
 ### Testplan
 
@@ -175,9 +188,45 @@ Het testen zelf ging erg goed. Alleen had ik zelf weinig instructies moeten geve
 
 ## Eindresultaat
 
+![versie3 voor desktop](https://github.com/EvaZ7/HCD/blob/1ba0a9c1cb69474daa74d8f1f3379d0f80d80a4d/public/img/versie3desktop.png)
+
+![versie3 voor mobiel](https://github.com/EvaZ7/HCD/blob/1ba0a9c1cb69474daa74d8f1f3379d0f80d80a4d/public/img/versie3mobiel.jpeg)
+
+### Aanpassingen
+
+- Omdat ik tijdens het testen zag dat Eric wat moeite had met het drukken op de verzendknop om zijn bericht te versturen, heb ik deze groter gemaakt zodat de knop nog beter klikbaar is voor Eric.
+
+- Ook ben ik tijdens het testen tot de conclusie gekomen dat Eric graag de berichten die hij heeft verstuurd nog eens achteraf wil aanpassen. Zodat hij de *mood* hiervan alsnog zou kunnen veranderen na het versturen. Ik heb nu elk bericht klikbaar gemaakt zodat Eric tussen de verschillende moods kan switchen door een of meerdere keren op het bericht te klikken.
+
+- Om de design principles nog beter te implementeren heb ik het principe *add nonsense* toegevoegd. Dit heb ik gedaan door iedere emotie ook een bijpassend font te geven, dit maakt de chat app vrolijker en voegt ook nog eens meer emotie toe aan de berichten, vind ik.
+
+- Verder heb ik de kleuren van de verschillende *moods* veranderd. Ik heb dit gedaan op basis van kleurentheorie, dit houdt in dat ik na klein onderzoek erachter ben gekomen dat wij mensen bepaalde soorten kleuren aan bepaalde emoties koppelen. Welke kleur nou precies bij welke emotie past, heb ik uitgezocht en op basis hiervan de kleuren bij de moods aangepast.
+
 ## Design principles
 
+### Study situation
+
+Door middel van het testen van mijn applicatie ben ik erachter gekomen dat Eric zelf veel verschillende en vanuit mijn oogpunt veel creatieve manieren heeft voor het gebruiken van zijn telefoon. Zo gebruikt hij zijn armleuning als telefoonhouder en gebruikt hij een stylus om better te kunnen klikken op zijn telefoon, ook kan Eric minder goed bij de bovenkant van zijn telefoon. Hierdoor heb ik de conclusie getrokken dat grotere knoppen voor Eric makkelijker zijn om te gebruiken, de knoppen hoeven ook niet TE groot zijn omdat Eric door middel van zijn stylus de knoppen toch vrij goed kan selecteren.
+
+### Prioritise identity
+
+Eric zelf vindt het erg belangrijk dat zijn body language duidelijk overkomt in een chat app. Hij zou dan ook het liefst zijn berichten dan ook nog eens achteraf(na het versturen) willen aanpassen. Ik heb hier iets op bedacht. Als Eric namelijk een bericht heeft verstuurd kan hij de *mood* van het gestuurde bericht nog eens aanpassen als hij op het gestuurde bericht klikt. Als hij een keer klikt krijgt het bericht een blije mood/kleur, twee keer een boze mood en kleur enzovoort.
+
+Verder wilt Eric niet altijd een mood (of een neutrale mood) aan een bericht meegeven als hij snel iets wil typen en dus niet wilt klikken op de knoppen voor een mood omdat dit hem extra moeite kost doordat je verplicht een mood moet selecteren bij een bericht. Daardoor heb ik ervoor gekozen om standaard de neutrale mood te laten selecteren bij een bericht als er geen mood is geselecteerd.
+
+### Ignore conventions
+
+emoji gebruik
+
+Bijna elke gebruiker van een chatapp maakt gebruik van emoji's om zijn of haar emotie over te brengen in een bericht. Eric is daar een uitzondering op. Hij vindt emoji's onduidelijk en het zijn er te veel om uit te kiezen. Eric zou daarom graag op een andere manier emotie of *body language* willen uitdrukken. Hiervoor heb ik mood door middel van kleur systeem bedacht. Emotie wordt dan aan een bericht meegegeven door middel van kleur in plaats van een emoji. Om het concept nog meer te verduidelijken heb ik de gebruiker eerst uit een *mood* op basis van tekst laten kiezen, zodat dit ook gelijk is voor alle gebruikers van de chatapp, om vervolgens dit weer om te zetten naar kleur.
+
+### Add nonsense
+
+Om mijn app wat minder formeel te maken en op te vrolijken heb ik natuurlijk wat onzin toegevoegd. Niet complete onzin, maar wel een beetje. Ik heb er namelijk in de laatste stap van mijn ontwerp ervoor gekozen om dit te doen door verschillende soorten lettertypen aan de emoties te koppelen. Deze lettertypen associeer ik zelf ieder met een andere emotie en ik dus ook daaraan gekoppeld. De lettertypen staan niet allen in de keuze knoppen om de emotie mee te geven aan een bericht maar ook in het gestuurde bericht zelf. Op deze manier benadruk ik dus ook de emotie achter het bericht door middel van typografie. Maar het maakt mijn ontwerp ook vooral heel leuk.
+
 ## Gebruikers behoeften
+
+**User scenario**
 
 Een dag in het leven van Eric. Eric is een 50-jarige man die graag online communiceert via verschillende chat apps. Hij werkt vanuit huis en brengt veel tijd door achter zijn computer en telefoon. Omdat hij zich niet altijd comfortabel voelt bij het uiten van zijn emoties in een de vorm van emoji's, heeft hij behoefte aan betere manieren om zijn emoties en gevoelens over te brengen. Eric kan beperkt zijn handen gebruiken en heeft daarom daarnast ook meer moeite met het gebruiken van emoji's.
 
@@ -190,7 +239,6 @@ Later die dag besluit Eric op zoek te gaan naar een oplossing voor zijn probleem
 Wanneer Eric de app voor het eerst gebruikt, merkt hij meteen hoe intuïtief het is om zijn emoties over te brengen. Hij kan nu knoppen gebruiken om zijn emoties aan te duiden bij een bericht in plaats van emoji's. Hij is ook blij dat hij de emoties van zijn gesprekspartner beter kan begrijpen dankzij de kleuren die aan de berichten worden meegegeven.
 
 Al met al is Eric erg tevreden met de nieuwe chat app en gebruikt hij deze nu dagelijks voor zijn online communicatie. Hij is blij dat hij nu beter kan communiceren met anderen en dat hij zich meer op zijn gemak voelt bij het uiten van zijn emoties.
-
 
 ## Bronnen
 
