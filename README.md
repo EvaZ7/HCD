@@ -1,6 +1,6 @@
 # Erics moods
 
-![versie3 voor mobiel](https://github.com/EvaZ7/HCD/blob/1ba0a9c1cb69474daa74d8f1f3379d0f80d80a4d/public/img/versie3desktop.png)
+![versie3 voor mobiel](https://github.com/EvaZ7/HCD/blob/74efad6774d3799b51047cd4ab17796206013510/public/img/versie3desktop.png)
 
 ## Onderzoeksvraag
 
@@ -188,9 +188,9 @@ Het testen zelf ging erg goed. Alleen had ik zelf weinig instructies moeten geve
 
 ## Eindresultaat
 
-![versie3 voor desktop](https://github.com/EvaZ7/HCD/blob/1ba0a9c1cb69474daa74d8f1f3379d0f80d80a4d/public/img/versie3desktop.png)
+![versie3 voor desktop](https://github.com/EvaZ7/HCD/blob/74efad6774d3799b51047cd4ab17796206013510/public/img/versie3desktop.png)
 
-![versie3 voor mobiel](https://github.com/EvaZ7/HCD/blob/1ba0a9c1cb69474daa74d8f1f3379d0f80d80a4d/public/img/versie3mobiel.jpeg)
+![versie3 voor mobiel](https://github.com/EvaZ7/HCD/blob/74efad6774d3799b51047cd4ab17796206013510/public/img/versie3mobiel.jpeg)
 
 ### Aanpassingen
 
