@@ -3,6 +3,9 @@
 /*************/
 @import url("https://use.typekit.net/myy2iyg.css");
 
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Space+Grotesk:wght@300&display=swap');
+
+
 /*************/
 /* CSS RESET */
 /*************/
@@ -35,7 +38,8 @@ button:not([disabled]) {
   --decoration-orange: #FBB95C;
   --decoration-pink: #FFD1DC;
   --decoration-purple: #C1B0E1;
-  --decoration-yellow: #FDFD96;
+  --decoration-bluegrey: #66b4e4;
+  --decoration-yellow: #f8e973;
   --decoration-green: #CBF3B7;
 }
 
@@ -121,7 +125,7 @@ main section form input[type="text"] {
   border: 0;
   border-radius: 1em;
 
-  height: 3em;
+  height: 4em;
   font-size: 1em;
   padding-left: 1em;
   padding-right: 5em;
@@ -130,11 +134,12 @@ main section form fieldset:nth-of-type(2) input:focus {
   outline: 0.2em solid var(--decoration-purple);
 }
 main section form button {
+  display: block;
   clip-path: polygon(0 0, 100% 50%, 0 100%, 26% 50%);
   background-color: var(--background-black);
   color: var(--background-black);
-  width: 4em;
-  height: 3em;
+  width: 5em;
+  height: 4em;
   transform: translateY(-50%);
 }
 #send {
@@ -179,11 +184,13 @@ section ul {
 }
 
 section ul li{
+  position: relative;
   flex-direction: row;
   align-items: center;
   font-family: "omnes-georgian", sans-serif;
   font-weight: 500;
   font-style: normal;
+  font-size: 1.5em;
   padding: 1em;
   margin-bottom: 1em;
   background-color: var(--decoration-purple);
@@ -193,14 +200,31 @@ section ul li{
   box-shadow: 0.08em 0.06em 0.1em 0.1em rgb(65, 65, 65);
 }
 
+/*button for changing mood on message*/
+section ul li button {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 1em;
+  border: 0;
+  background-color: transparent;
+}
+
+/*Messages with moods*/
 section ul li.happy {
-  background-color: var(--decoration-green);
+  background-color: var(--decoration-yellow);
+  font-family: 'Kalam', cursive;
 }
 section ul li.neutral {
   background-color: var(--decoration-purple);
+  font-family: Arial, Helvetica, sans-serif;
 }
 section ul li.sad {
-  background-color: var(--decoration-orange);
+  background-color: var(--decoration-bluegrey);
+  font-family: monospace;
+  font-size: 1.7em;
 }
 
 section ul li p {
@@ -249,14 +273,19 @@ fieldset:first-of-type label {
   align-items: center;
 }
 
+/*Mood buttons*/
 fieldset:first-of-type label[for="happy"] {
-  background-color: var(--decoration-green)
+  background-color: var(--decoration-yellow);
+  font-family: 'Kalam', cursive;
 }
 fieldset:first-of-type label[for="sad"] {
-  background-color: var(--decoration-orange)
+  background-color: var(--decoration-bluegrey);
+  font-family: monospace;
+  font-size: 1.7em;
 }
 fieldset:first-of-type label[for="neutral"] {
-  background-color: var(--decoration-purple)
+  background-color: var(--decoration-purple);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 

@@ -2,17 +2,30 @@
 
 [ericsapp](https://ericsapp.adaptable.app/)
 
+Voor het vak Human Centered design krijg je de opdracht om een ontwerp te maken voor specifiek één individu, een echt persoon. Het is belangrijk om elke week je ontwerp te testen en te herzien om het te kunnen verbeteren, zo maak je dus elke week een iteratie en wordt het ontwerp al beter. Zo zal het ontwerp uiteindelijk exclusief zijn afgestemd op de behoeften en voorkeuren van die ene persoon. Om dit te kunnen doen, is het belangrijk om te weten wie deze persoon is, wat hij of zij leuk vindt en niet leuk vindt, en hoe hij of zij omgaat met het gebruik van een computer of telefoon.
+
+Het doel van de opdracht is om te leren iteren en prototypen door middel van te testen met echte mensen.
+
+Mijn gebruiker is Eric. Eric is iemand die een sterke behoefte heeft aan het uiten van emoties en gevoelens in zijn online communicatie. Hij heeft gemerkt dat de standaard emoticons en emoji's die beschikbaar zijn in chat apps, zoals Signal, niet voldoende zijn om de complexiteit van zijn emoties over te brengen. Eric gelooft dat er betere en krachtigere tools nodig zijn om zijn emoties en *body language* effectiever te kunnen communiceren. Hij wilt dit graag kunnen gebruiken in de vorm die aansluit bij deze chatapp. 
+
+Eric gelooft dat de technologie ons kan helpen bij het overbrengen van deze subtiele signalen in online communicatie. Hij stelt zich voor dat er bijvoorbeeld tools zouden zijn die onze gezichtsuitdrukkingen kunnen detecteren en omzetten in emoji's of animaties. Op deze manier zouden we ons beter kunnen uitdrukken en begrijpen wat de ander bedoelt in een chatgesprek.
+
+Kortom, Eric pleit voor een meer geavanceerde vorm van online communicatie, waarbij emoties en *body language* beter kunnen worden overgebracht. Hij gelooft dat er betere en krachtigere tools nodig zijn om dit te bereiken en dat deze tools zouden kunnen helpen bij het verbeteren van onze online interacties. Aan ons de taak om met deze tools aan de slag te gaan en hier een oplossing voor te bedenken in de vorm van een prototype door middel van te testen.
+
 ## Inhoudsopgave
 
 - Probleem en oplossing
 - Eerste ideeën
 - Versie 1
 - Versie 2
+- Eindresultaat
 - Design principles
 - Gebruikers behoeften
 - Bronnen
 
 ## Probleem en oplossing
+
+
 
 ## Eerste ideeën
 
@@ -22,9 +35,9 @@
 
 ## Versie 1 
 
-![versie1 voor desktop](https://ericsapp.adaptable.app/)
+![versie1 voor desktop](https://github.com/EvaZ7/HCD/blob/1ba0a9c1cb69474daa74d8f1f3379d0f80d80a4d/public/img/versie1desktop.png)
 
-![versie1 voor mobiel](https://ericsapp.adaptable.app/)
+![versie1 voor mobiel](https://github.com/EvaZ7/HCD/blob/1ba0a9c1cb69474daa74d8f1f3379d0f80d80a4d/public/img/versie1mobiel.png)
 
 ### Testen/ interview
 
@@ -79,9 +92,9 @@ Een andere oplossing kan zijn om de emotie door middel van spraak te laten overb
 
 ## Versie 2
 
-![versie2 voor desktop](https://ericsapp.adaptable.app/)
+![versie2 voor desktop](https://github.com/EvaZ7/HCD/blob/1ba0a9c1cb69474daa74d8f1f3379d0f80d80a4d/public/img/versie2desktop.png)
 
-![versie2 voor mobiel](https://ericsapp.adaptable.app/)
+![versie2 voor mobiel](https://github.com/EvaZ7/HCD/blob/1ba0a9c1cb69474daa74d8f1f3379d0f80d80a4d/public/img/versie2mobiel.jpeg)
 
 ### Peer feedback
 
@@ -148,13 +161,39 @@ Laatste vraag: past de kleur bij de emotie en zo ja is dit duidelijk genoeg.
 - De kleuren zijn duidelijk genoeg en passen bij de emotie die Eric wilt overbrengen.
 - Tab werkt fijn, maar Eric gebruikt liever zijn muis voor op desktop.
 
-#### Conclusie
+### Conclusies
 
+Het selecteren van de verschillende emoties gaat perfect, de knoppen zijn groot genoeg en het is duidelijk welke emotie er is geselecteerd. De knop voor het verzenden en het invoerveld voor de tekst kunnen wel wat groter om dit makkelijker maken om te gebruiken voor Eric. Ook is het handiger om standaard een neutrale "mood" te selecteren voor het bericht, hierdoor hoef je niet terug te gaan na het typen van het bericht, dit kost Eric wat meer moeite namelijk. Het moet verder ook mogelijk zijn om achteaf de "mood" van het bericht aan te passen.
 
+Het testen zelf ging erg goed. Alleen had ik zelf weinig instructies moeten geven doordat de app grotendeels voor zichzelf sprak.
+
+**To do:**
+- Neutrale mood als standaard laten selecteren
+- Verschillende fonts toevoegen aan verschillende emoties
+- Verzendknop groter maken.
+- Mood van het bericht achteraf aanpasbaar maken.
+
+## Eindresultaat
 
 ## Design principles
+
 ## Gebruikers behoeften
+
+Een dag in het leven van Eric. Eric is een 50-jarige man die graag online communiceert via verschillende chat apps. Hij werkt vanuit huis en brengt veel tijd door achter zijn computer en telefoon. Omdat hij zich niet altijd comfortabel voelt bij het uiten van zijn emoties in een de vorm van emoji's, heeft hij behoefte aan betere manieren om zijn emoties en gevoelens over te brengen. Eric kan beperkt zijn handen gebruiken en heeft daarom daarnast ook meer moeite met het gebruiken van emoji's.
+
+Op een dag heeft Eric een belangrijk gesprek met een vriend, maar hij vindt het moeilijk om zijn gevoelens in woorden uit te drukken. Hij merkt dat de emoticons en emoji's die beschikbaar zijn in de chat app niet voldoende zijn om de complexiteit van zijn emoties weer te geven. Hij zou willen dat er betere en krachtigere tools beschikbaar waren om zijn emoties en *body language* effectiever te kunnen communiceren.
+
+Als Eric tijdens het gesprek zijn webcam aanzet, beseft hij dat het veel gemakkelijker is om zich uit te drukken via zijn gezichtsuitdrukkingen en lichaamstaal. Hij stelt zich voor dat er tools zouden zijn die deze signalen kunnen detecteren en omzetten in emoji's of kleur, zodat hij zich beter kan uitdrukken en de ander beter kan begrijpen.
+
+Later die dag besluit Eric op zoek te gaan naar een oplossing voor zijn probleem en hij ontdekt een nieuwe chat app die speciaal is ontworpen voor hem om emoties en *body language* over te brengen. De app maakt gebruik van knoppen om zijn emtoies uit te drukken en mee te kunnen sturen aan elk chatbericht door middel van kleur. De gekleurde tekstballonetjes geven Eric's emoties beter weer dan de emoji's ooit zouden kunnen doen. Eric is enthousiast en besluit de app uit te proberen.
+
+Wanneer Eric de app voor het eerst gebruikt, merkt hij meteen hoe intuïtief het is om zijn emoties over te brengen. Hij kan nu knoppen gebruiken om zijn emoties aan te duiden bij een bericht in plaats van emoji's. Hij is ook blij dat hij de emoties van zijn gesprekspartner beter kan begrijpen dankzij de kleuren die aan de berichten worden meegegeven.
+
+Al met al is Eric erg tevreden met de nieuwe chat app en gebruikt hij deze nu dagelijks voor zijn online communicatie. Hij is blij dat hij nu beter kan communiceren met anderen en dat hij zich meer op zijn gemak voelt bij het uiten van zijn emoties.
+
 
 ## Bronnen
 
 - https://www.javascripttutorial.net/javascript-dom/javascript-radio-button/
+- https://99designs.com/blog/tips/how-color-impacts-emotions-and-behaviors/#sectionpurple
+- https://fonts.google.com/specimen/Kalam?category=Handwriting

@@ -13,6 +13,7 @@ var Message = document.querySelector("section ul li");
 
 const btn = document.querySelector('#send');        
 const radioButtons = document.querySelectorAll('input[name="mood"]');
+
 // btn.addEventListener("click", () => {
 //     let selectedMood;
 //     for (const radioButton of radioButtons) {
@@ -73,7 +74,36 @@ socket.on('history', (history) => {
 
 function addChat(data) {
   messages.appendChild(Object.assign(document.createElement('li'), { textContent: data.message, classList: data.mood }))
+  let li = document.querySelector("ul li:last-of-type")
+  li.appendChild(Object.assign(document.createElement('button')))
   messages.scrollTop = messages.scrollHeight
+
+let messageButton = document.querySelector('ul li:last-of-type button');
+let clickCount = 0;
+let message = document.querySelector('ul li:last-of-type')
+
+messageButton.addEventListener('click', function() {
+  if (clickCount === 0) {
+    message.className = ""
+    message.classList.add('happy');
+  } else if (clickCount === 1) {
+    message.className = ""
+    message.classList.add('neutral');
+  } else if (clickCount === 2) {
+    message.className = ""
+    message.classList.add('sad');
+  } else if (clickCount === 3) {
+    message.className = ""
+    message.classList.add('happy');
+  } else if (clickCount === 4) {
+    message.className = ""
+    message.classList.add('neutral');
+  } else if (clickCount === 5) {
+    message.className = ""
+    message.classList.add('sad');
+  }
+  clickCount++;
+});
 }
 
 
