@@ -190,7 +190,7 @@ section ul li{
   font-family: "omnes-georgian", sans-serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 1.5em;
+  font-size: 1em;
   padding: 1em;
   margin-bottom: 1em;
   background-color: var(--decoration-purple);
@@ -224,7 +224,7 @@ section ul li.neutral {
 section ul li.sad {
   background-color: var(--decoration-bluegrey);
   font-family: monospace;
-  font-size: 1.7em;
+  font-size: 1.3em;
 }
 
 section ul li p {
