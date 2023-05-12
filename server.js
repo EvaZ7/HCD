@@ -23,7 +23,7 @@ app.use(express.static(path.resolve('public')));
 //if the socket is connected do this
 io.on('connection', (socket) => {
     console.log('a user connected');
-    socket.emit('history', history)
+    io.to(socket.id).emit('history', history)
 
     // data variable from input field in chat message
     socket.on('chat', (data) => {
